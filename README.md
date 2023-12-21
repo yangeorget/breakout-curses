@@ -1,3 +1,3 @@
-# A breakout gane written with curses
+# A breakout game written with curses
 
-This breakout game runs in a terminal
+This breakout game runs in a terminal!
