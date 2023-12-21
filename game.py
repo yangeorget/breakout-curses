@@ -44,6 +44,7 @@ class Game:
                 self.bricks[y][x].display(window)
         curses.doupdate()
         while not (self.won() or self.lost()):
+            # self.debug(window)
             self.gun_power += 1
             if self.gun_power >= GUN_POWER_MAX:
                 self.gun_power = GUN_POWER_MAX
